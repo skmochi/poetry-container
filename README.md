@@ -9,3 +9,7 @@ poetry updateなどをするコンテナ
 4. `cd mount`
 5. `poetry update`など
 6. 更新されたファイルが`mount/`にある
+
+## Notice
+
+platformは必要に応じてcomposeファイルを書き換えてください
