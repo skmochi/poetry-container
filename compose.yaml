@@ -1,0 +1,9 @@
+services:
+  poetry:
+    build:
+      context: .
+    # select platform you need
+    # platform: linux/amd64
+    container_name: poetry
+    volumes:
+      - ./mount:/workspace/mount
